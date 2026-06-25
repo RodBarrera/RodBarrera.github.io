@@ -14,7 +14,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -64,7 +64,7 @@
   <div class="container hero__grid">
     <div class="hero__intro reveal">
       <p class="eyebrow">// ingeniero en ciberseguridad</p>
-      <h1 class="hero__name">Jorge Rodrigo<br />Barrera <em>Espinoza</em></h1>
+      <h1 class="hero__name">Jorge Rodrigo<br />Barrera Espinoza</h1>
       <p class="hero__tag">
         Ethical hacking <span>·</span> SGSI ISO 27001 <span>·</span> Red Team <span>·</span> Desarrollo Full Stack
       </p>
@@ -359,59 +359,68 @@
 </section>
 
 <!-- ============ PROYECTOS ============ -->
-<!--
-  NOTA: Tu CV no incluía repositorios concretos, así que estas 3 tarjetas son un
-  BORRADOR basado en tu experiencia real. Reemplaza nombre, descripción, tech tags
-  y el enlace de GitHub por tus repositorios reales. Si me los pasas, los integro.
--->
+<!-- ============ PROYECTOS ============ -->
 <section class="section section--alt" id="proyectos">
   <div class="container">
     <header class="section__head reveal">
       <p class="eyebrow">06 / proyectos destacados</p>
       <h2 class="section__title">Proyectos</h2>
-      <p class="section__note">Borrador — reemplaza estas tarjetas por tus repositorios reales.</p>
     </header>
 
     <div class="projects">
       <article class="project reveal">
         <div class="project__top">
-          <h3 class="project__name">Laboratorio de Pentesting</h3>
-          <a class="project__link" href="https://github.com/RodBarrera" target="_blank" rel="noopener" aria-label="Ver en GitHub">GitHub ↗</a>
+          <h3 class="project__name">Catalejo</h3>
+          <a class="project__link" href="https://github.com/RodBarrera/Catalejo" target="_blank" rel="noopener" aria-label="Ver Catalejo en GitHub">GitHub ↗</a>
         </div>
         <p class="project__desc">
-          Entorno controlado de máquinas vulnerables para practicar reconocimiento, explotación y
-          escalada de privilegios, con informes técnicos siguiendo OWASP.
+          Escáner de puertos y correlación de CVEs contra la NVD, escrito en Python puro.
+          Genera reportes ejecutivos en HTML y PDF para traducir hallazgos técnicos a riesgo.
         </p>
         <ul class="tags tags--sm">
-          <li>Kali Linux</li><li>Nmap</li><li>Metasploit</li><li>Burp Suite</li><li>OWASP</li>
+          <li>Python</li><li>NVD API</li><li>Escaneo de puertos</li><li>Reportes HTML/PDF</li>
         </ul>
       </article>
 
       <article class="project reveal">
         <div class="project__top">
-          <h3 class="project__name">App Web Full Stack Segura</h3>
-          <a class="project__link" href="https://github.com/RodBarrera" target="_blank" rel="noopener" aria-label="Ver en GitHub">GitHub ↗</a>
+          <h3 class="project__name">devsecops-shift</h3>
+          <a class="project__link" href="https://github.com/RodBarrera/devsecops-shift" target="_blank" rel="noopener" aria-label="Ver devsecops-shift en GitHub">GitHub ↗</a>
         </div>
         <p class="project__desc">
-          Aplicación con backend en Django REST y frontend en React, con controles de seguridad
-          integrados: validación de entradas, control de accesos y cifrado.
+          Demo de DevSecOps / shift-left: una app web vulnerable y un pipeline CI/CD que detecta
+          y bloquea vulnerabilidades con SAST, DAST, SCA y secret scanning.
         </p>
         <ul class="tags tags--sm">
-          <li>Python</li><li>Django REST</li><li>React</li><li>MySQL</li><li>JWT</li>
+          <li>Python</li><li>CI/CD</li><li>SAST</li><li>DAST</li><li>SCA</li><li>Secret Scanning</li>
         </ul>
       </article>
 
       <article class="project reveal">
         <div class="project__top">
-          <h3 class="project__name">Toolkit de Hardening</h3>
-          <a class="project__link" href="https://github.com/RodBarrera" target="_blank" rel="noopener" aria-label="Ver en GitHub">GitHub ↗</a>
+          <h3 class="project__name">Framework Ciberseguridad IoT Industrial</h3>
+          <a class="project__link" href="https://github.com/RodBarrera/framework-ciberseguridad-iot-industrial" target="_blank" rel="noopener" aria-label="Ver framework IoT industrial en GitHub">GitHub ↗</a>
         </div>
         <p class="project__desc">
-          Scripts de automatización para aplicar líneas base de seguridad (CIS) en sistemas Linux
-          y Windows, con verificación de cumplimiento y reportes.
+          Framework modular de ciberseguridad para IoT industrial de bajos recursos en procesos
+          productivos. Proyecto desarrollado en la Universidad Mayor.
         </p>
         <ul class="tags tags--sm">
-          <li>Python</li><li>Bash</li><li>CIS Controls</li><li>Linux</li><li>Hardening</li>
+          <li>C++</li><li>IoT Industrial</li><li>Framework modular</li><li>Seguridad</li>
+        </ul>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <h3 class="project__name">grc-dashboard</h3>
+          <a class="project__link" href="https://github.com/RodBarrera/grc-dashboard" target="_blank" rel="noopener" aria-label="Ver grc-dashboard en GitHub">GitHub ↗</a>
+        </div>
+        <p class="project__desc">
+          Panel de Gobierno, Riesgo y Cumplimiento (GRC) en Python para seguimiento de controles
+          y estado de cumplimiento alineado a marcos como ISO 27001.
+        </p>
+        <ul class="tags tags--sm">
+          <li>Python</li><li>GRC</li><li>ISO 27001</li><li>Dashboard</li>
         </ul>
       </article>
     </div>

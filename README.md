@@ -41,10 +41,15 @@ El sitio se sirve en **https://rodbarrera.github.io** usando un repo de usuario.
 
 ## 2. Qué falta / qué conviene revisar
 
-- **Proyectos (sección 06):** son un **borrador** basado en tu experiencia, no repos reales. Edita en `index.html` el bloque `<section id="proyectos">`: cambia nombre, descripción, tech tags y el enlace de GitHub de cada tarjeta. Si me pasas tus repos reales, los integro.
-- **Foto:** el diseño actual no usa foto (queda más limpio). Si la quieres, súbela como `assets/foto.jpg` y te agrego el bloque en el hero.
-- **Verificación de certificados:** si tienes URLs de verificación (Credly, CertiProf, etc.), dímelas y añado un enlace "Verificar ↗" a cada certificación.
-- **Usuario de GitHub:** asumí `RodBarrera`. Si es otro, hay que cambiarlo en `index.html` (3 enlaces de proyectos + el del contacto) y en el nombre del repo.
+- **Proyectos (sección 06):** ya integrados con tus repos reales fijados en GitHub
+  (Catalejo, devsecops-shift, framework-ciberseguridad-iot-industrial, grc-dashboard).
+  Si quieres cambiar cuáles aparecen, añadir demo o ajustar descripciones, dímelo.
+  La tarjeta de `grc-dashboard` no tenía descripción en GitHub, así que redacté una
+  basada en el nombre — revísala por si quieres precisarla.
+- **Foto:** el diseño actual no usa foto (queda más limpio). Si la quieres, súbela como
+  `assets/foto.jpg` y te agrego el bloque en el hero.
+- **Verificación de certificados:** si tienes URLs de verificación (Credly, CertiProf, etc.),
+  dímelas y añado un enlace "Verificar ↗" a cada certificación.
 
 ---
 
